@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="DragAndDropProjects.jnlp">
+  <information>
+    <title>DragAndDropProjects</title>
+    <vendor>com.shubha</vendor>
+    <description>Drag and drop</description>
+    <offline-allowed/>
+  <shortcut><desktop/></shortcut>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="DragAndDropProjects.jar" size="541415" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="DragItAndDropIt.FruitMatch"  name="DragAndDropProjects" />
+  <update check="always"/>
+</jnlp>
